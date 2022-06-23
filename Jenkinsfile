@@ -5,13 +5,13 @@ pipeline {
       parallel {
         stage('Stage 1') {
           steps {
-            echo 'stage1'
+            bat 'stage1'
           }
         }
 
         stage('Stage 3') {
           steps {
-            echo 'Stage 3'
+            bat 'Stage 3'
           }
         }
 
